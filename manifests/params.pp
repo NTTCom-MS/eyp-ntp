@@ -135,7 +135,7 @@ class ntp::params {
                                         'limited',
                                       ]
             }
-            /^18.*$/:
+            /^18.*$|20.*$/:
             {
               $systemd_timesync_available=true
               $restrict_ipv4_default = [
