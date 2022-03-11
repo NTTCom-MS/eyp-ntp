@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.17
+
+* Added support for **Ubuntu 20.04**
+
 ## 0.1.16
 
 * Added support for RHEL8
