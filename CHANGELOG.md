@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.18
+
+* Addapted restrict defaults to match CaaS
+
 ## 0.1.17
 
 * Added support for **Ubuntu 20.04**

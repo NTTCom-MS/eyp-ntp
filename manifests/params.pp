@@ -24,16 +24,16 @@ class ntp::params {
       $restrict_ipv4_default = [
                                 'default',
                                 'kod',
-                                'notrap',
                                 'nomodify',
+                                'notrap',
                                 'nopeer',
                                 'noquery',
                               ]
       $restrict_ipv6_default = [
                                 'default',
                                 'kod',
-                                'notrap',
                                 'nomodify',
+                                'notrap',
                                 'nopeer',
                                 'noquery',
                               ]
@@ -99,16 +99,16 @@ class ntp::params {
               $restrict_ipv4_default = [
                                         'default',
                                         'kod',
-                                        'notrap',
                                         'nomodify',
+                                        'notrap',
                                         'nopeer',
                                         'noquery',
                                       ]
               $restrict_ipv6_default = [
                                         'default',
                                         'kod',
-                                        'notrap',
                                         'nomodify',
+                                        'notrap',
                                         'nopeer',
                                         'noquery',
                                       ]
@@ -119,20 +119,18 @@ class ntp::params {
               $restrict_ipv4_default = [
                                         'default',
                                         'kod',
-                                        'notrap',
                                         'nomodify',
+                                        'notrap',
                                         'nopeer',
-                                        'noquery',
-                                        'limited',
+                                        'noquery',                                 
                                       ]
               $restrict_ipv6_default = [
                                         'default',
                                         'kod',
-                                        'notrap',
                                         'nomodify',
+                                        'notrap',
                                         'nopeer',
                                         'noquery',
-                                        'limited',
                                       ]
             }
             /^18.*$|20.*$/:
@@ -141,20 +139,18 @@ class ntp::params {
               $restrict_ipv4_default = [
                                         'default',
                                         'kod',
-                                        'notrap',
                                         'nomodify',
+                                        'notrap',
                                         'nopeer',
                                         'noquery',
-                                        'limited',
                                       ]
               $restrict_ipv6_default = [
                                         'default',
                                         'kod',
-                                        'notrap',
                                         'nomodify',
+                                        'notrap',
                                         'nopeer',
                                         'noquery',
-                                        'limited',
                                       ]
             }
             default: { fail("Unsupported Ubuntu version! - ${::operatingsystemrelease}")  }
@@ -176,16 +172,16 @@ class ntp::params {
           $restrict_ipv4_default = [
                                     'default',
                                     'kod',
-                                    'notrap',
                                     'nomodify',
+                                    'notrap',
                                     'nopeer',
                                     'noquery',
                                   ]
           $restrict_ipv6_default = [
                                     'default',
                                     'kod',
-                                    'notrap',
                                     'nomodify',
+                                    'notrap',
                                     'nopeer',
                                     'noquery',
                                   ]
